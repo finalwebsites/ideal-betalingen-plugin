@@ -1,0 +1,52 @@
+/* Style for Divi */
+.panel { border-radius:0; }
+.panel-heading { padding: 12px; }
+.panel-heading h2 { font-size:22px;padding-bottom:0; }
+.panel-body p { padding-bottom:0.5em; }
+.totaal { padding-top:0.5em; }
+
+#betaalform .form-control {
+	padding: 12px;
+	background-color: #eee;
+	color: #999;
+	border:1px solid #eee;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    height: auto;
+    line-height:normal;
+}
+
+.btn { 
+	color: #2ea3f2;
+	border-radius: 3px;
+	padding: 0.3em 1em;
+    border: 2px solid #2ea3f2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em; 
+}
+.btn:hover, .btn-success.disabled:hover, .btn-success:hover {
+    padding: 0.3em 2em 0.3em 1em;
+    border: 2px solid transparent;
+    background: rgba(0, 0, 0, 0.05);
+    color: #2ea3f2;
+}
+	
+.btn:after {
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    font-size: 32px;
+    line-height: 1em;
+    content: "\35";
+	font-family: "ETmodules";
+}
+	
+.btn:hover:after {
+    margin-left: 0;
+    opacity: 1;
+}

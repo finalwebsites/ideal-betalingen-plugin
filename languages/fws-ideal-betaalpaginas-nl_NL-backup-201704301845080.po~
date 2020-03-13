@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iDEAL betaalpagina's\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-30 18:43+0000\n"
+"PO-Revision-Date: 2017-04-30 18:43+0000\n"
+"Last-Translator: diviadmin <admin@finalwebsites.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ideal-betaal-paginas.php:92
+msgid "Tenminste een van de verplichte velden is leeg."
+msgstr ""
+
+#: ideal-betaal-paginas.php:107
+msgid "Verificatie fout, probeer het opnieuw."
+msgstr ""
+
+#: ideal-betaal-paginas.php:155
+msgid "Fout:"
+msgstr ""
+
+#: ideal-betaal-paginas.php:158
+msgid "Uw betaling kan niet worden opgeslagen, probeer het opnieuw"
+msgstr ""
+
+#: ideal-betaal-paginas.php:217
+msgid "Er is een fout ontstaan."
+msgstr ""
+
+#: include/shortcode-bedankt.php:20
+#, php-format
+msgid ""
+"Wij hebben de betaling voor uw bestelling ontvangen en zullen het bestelde "
+"product of dienst zo snel mogelijk leveren.<br><br>U ontvangt een "
+"bevestiging via het opgegeven e-mailadres (%s)."
+msgstr ""
+
+#: include/shortcode-bedankt.php:23
+msgid ""
+"Uw betaling is op dit moment nog niet verwerkt. Wanneer u de betaling heeft "
+"geannuleerd, is het helaas niet mogelijk om de betaling opnieuw te beginnen. "
+"Heeft u wel betaald, dan ontvangt u alsnog een bevestiging via e-mail."
+msgstr ""
+
+#: include/shortcode-bedankt.php:27
+msgid "Uw bestelling:"
+msgstr ""
+
+#: include/shortcode-bedankt.php:29
+msgid "Product of dienst:"
+msgstr ""
+
+#: include/shortcode-bedankt.php:30
+msgid "Bedrag incl. %s% BTW"
+msgstr ""
+
+#: include/verify-payment-mollie.php:30
+msgid "Bedankt voor uw bestelling"
+msgstr ""
+
+#: include/verify-payment-mollie.php:31
+#, php-format
+msgid ""
+"Beste %s,<br /><br />Wij hebben uw betaling (%s) in goede orde ontvangen en "
+"zullen op korte termijn contact met u opnemen. <br />Voor vragen kunt u ons "
+"natuurlijk bellen of mailen."
+msgstr ""
+
+#: include/shortcode-forms.php:9
+msgid "Uw gegevens"
+msgstr ""
+
+#: include/shortcode-forms.php:10
+msgid "Uw bestelling"
+msgstr ""
+
+#: include/shortcode-forms.php:12
+msgid "Voorbeeld product"
+msgstr ""
+
+#: include/shortcode-forms.php:33
+msgid "Totaal incl. %s% BTW"
+msgstr ""
+
+#: include/shortcode-forms.php:39
+msgid "BTW"
+msgstr ""
+
+#: include/shortcode-forms.php:43
+msgid "Totaal"
+msgstr ""
+
+#: include/shortcode-forms.php:54
+msgid "Bedrijfsnaam"
+msgstr ""
+
+#: include/shortcode-forms.php:59
+msgid "Straat en huisnummer"
+msgstr ""
+
+#: include/shortcode-forms.php:63
+msgid "Postcode en plaats"
+msgstr ""
+
+#: include/shortcode-forms.php:68
+msgid "Contact"
+msgstr ""
+
+#: include/shortcode-forms.php:71
+msgid "Voornaam"
+msgstr ""
+
+#: include/shortcode-forms.php:74
+msgid "Achternaam"
+msgstr ""
+
+#: include/shortcode-forms.php:79
+msgid "E-mailadres"
+msgstr ""
+
+#: include/shortcode-forms.php:84
+msgid "Telefoon"
+msgstr ""
+
+#: include/shortcode-forms.php:88
+msgid "Betaling via iDEAL"
+msgstr ""
+
+#: include/shortcode-forms.php:90
+msgid "Kies uw bank"
+msgstr ""
+
+#: include/shortcode-forms.php:115
+msgid "via iDEAL betalen"
+msgstr ""
+
+#. Name of the plugin
+msgid "iDEAL betaalpagina's"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin voor het aanmaken van eenvoudige betaalpagina's voor de betaling van "
+"enkele diensten of producten."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.finalwebsites.nl/wordpress/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Olaf Lederer"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.finalwebsites.nl/"
+msgstr ""
