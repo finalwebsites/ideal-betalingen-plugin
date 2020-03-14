@@ -88,10 +88,10 @@ function fws_create_payment_form($atts) {
 				<div class="form-group">
 					<label for="contact">'.__('Contact', 'fws-ideal-betaalpaginas').'</label>
 					<div class="row" id="contact">
-						<div class="col-xs-6">
+						<div class="col-sm-6">
 							<input type="text" class="form-control" id="Voornaam" name="Voornaam" placeholder="'.__('Voornaam', 'fws-ideal-betaalpaginas').'" required>
 						</div>
-						<div class="col-xs-6">
+						<div class="col-sm-6">
 							<input type="text" class="form-control" id="Achternaam" name="Achternaam" placeholder="'.__('Achternaam', 'fws-ideal-betaalpaginas').'" required>
 						</div>
 					</div>

@@ -1,5 +1,26 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row:before, .row:after {
+    display: table;
+    content: " ";
+}
+.col-sm-6 { 
+	
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .panel {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -83,5 +104,10 @@
 #betaalform .has-error .form-control { border-color: #DC1313; }
 
 
+@media (min-width: 768px) {
+	.col-sm-6 {
+		float:left;
+		width: 50%;
+	}
 
-
+}
