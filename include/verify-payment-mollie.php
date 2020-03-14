@@ -34,11 +34,11 @@ try {
   				$responderBody = create_html_template($responderBody);
   				
   				$responderHeader = array('From: '.get_option('blogname').' <'.get_option('admin_email').'>');
-  				add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+  				add_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
   				if ( !wp_mail($Emailadres, $responderSubject, $responderBody, $responderHeader) ) {
   					$msg .= 'Error sending mail.';
   				}
-  				remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+  				remove_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
         }
 			}
 		}

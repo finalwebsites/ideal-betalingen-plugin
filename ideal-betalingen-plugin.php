@@ -47,21 +47,13 @@ function FWSibp_load_textdomain() {
 function load_my_scripts() {
 	global $post;
 	if( is_a( $post, 'WP_Post' ) && has_shortcode( $post->post_content, 'fws_payment_form') ) {
-		$is_bootstrap = get_option('FWSIBP-disable-bootstrap');
 
-		if ($is_bootstrap == 1) {
-			$bs_dep = array();
-		} else {
-			wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', array(), null );
-			wp_enqueue_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), null, true);
-			$bs_dep = array('bootstrap');
-		}
 		wp_enqueue_style( 'betalingen', plugins_url( 'css/style.css', __FILE__ ), array(), null );
 		$is_divi = get_option('FWSIBP-is-divi');
 		if ($is_divi == 1) {
 			wp_enqueue_style( 'divi-formcode', plugins_url( 'css/divi.css', __FILE__ ), array('betalingen'), null );
 		}
-		wp_enqueue_script( 'bootstrap-validator', plugins_url( 'js/validator.min.js', __FILE__ ), $bs_dep, null, true);
+		wp_enqueue_script( 'bootstrap-validator', plugins_url( 'js/validator.min.js', __FILE__ ), null, null, true);
 		wp_localize_script( 'bootstrap-validator', 'ajax_object_bp',
 			array(
 				'ajax_url' => admin_url( 'admin-ajax.php' )
@@ -281,7 +273,7 @@ function create_html_template($msg, $template = 'emailtemplate.html') {
 	$html = str_replace('##COMPANY##', get_option('blogname'), $html);
 	return $html;
 }
-function set_html_content_type() {
+function fws_set_html_content_type() {
 	return 'text/html';
 }
 
