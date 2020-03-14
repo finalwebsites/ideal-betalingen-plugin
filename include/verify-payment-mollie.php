@@ -28,18 +28,18 @@ try {
 			if ($payment->isPaid() == TRUE)	{
 				update_post_meta($order->ID, 'Transactie_status', 'paid');
 				add_post_meta($order->ID, 'Transactie_datum', current_time('mysql'), true);
-        if ($send_email == 'ja') {
-  				$responderSubject = __('Bedankt voor uw bestelling', 'fws-ideal-betaalpaginas');
-  				$responderBody = sprintf( __('Beste %s,<br /><br />Wij hebben uw betaling (%s) in goede orde ontvangen en zullen op korte termijn contact met u opnemen. <br />Voor vragen kunt u ons natuurlijk bellen of mailen.', 'fws-ideal-betaalpaginas'), $Voornaam, $Product);
-  				$responderBody = create_html_template($responderBody);
-  				
-  				$responderHeader = array('From: '.get_option('blogname').' <'.get_option('admin_email').'>');
-  				add_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
-  				if ( !wp_mail($Emailadres, $responderSubject, $responderBody, $responderHeader) ) {
-  					$msg .= 'Error sending mail.';
-  				}
-  				remove_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
-        }
+        		if ($send_email == 'ja') {
+  					$responderSubject = __('Bedankt voor je bestelling', 'fws-ideal-betaalpaginas');
+  					$responderBody = sprintf( __('Beste %s,<br /><br />Wij hebben je betaling (%s) in goede orde ontvangen en zullen op korte termijn contact met je opnemen. <br />Voor vragen kan je ons natuurlijk bellen of mailen.', 'fws-ideal-betaalpaginas'), $Voornaam, $Product);
+  					$responderBody = create_html_template($responderBody);
+
+  					$responderHeader = array('From: '.get_option('blogname').' <'.get_option('admin_email').'>');
+  					add_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
+  					if ( !wp_mail($Emailadres, $responderSubject, $responderBody, $responderHeader) ) {
+  						$msg .= 'Error sending mail.';
+  					}
+  					remove_filter( 'wp_mail_content_type', 'fws_set_html_content_type' );
+        		}
 			}
 		}
 	}

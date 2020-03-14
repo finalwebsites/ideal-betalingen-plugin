@@ -6,8 +6,8 @@ function fws_create_payment_form($atts) {
 
 	$atts = shortcode_atts(
 		array(
-			'form_titel' => __('Uw gegevens', 'fws-ideal-betaalpaginas'),
-			'order_titel' => __('Uw bestelling', 'fws-ideal-betaalpaginas'),
+			'form_titel' => __('Je gegevens', 'fws-ideal-betaalpaginas'),
+			'order_titel' => __('Je bestelling', 'fws-ideal-betaalpaginas'),
 			'extra_velden' => '',
 			'product' => __('Voorbeeld product', 'fws-ideal-betaalpaginas'),
 			'bedankpagina' => '',

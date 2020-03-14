@@ -1,14 +1,20 @@
 Plugin wijzigingen
 
-Versie 1.0.1 - 2 januari 2018
+Versie 1.0.1 - 14 maart 2020
 De volgende aanpassingen en updates hebben geen gevolgen op de werking van de oude versie.
 
 Shortcode voor het formulier
  * Extra argument voor een (externe) bedankpagina URL
  * Mogelijkheid voor bedragen zonder BTW (bijvoorbeeld bij donaties)
- 
+
 Shortcode voor de bedankpagina
  * Voor deze shortcode is er nu een argument (showordersummary) beschikbaar waardoor de bestelinformatie wel of niet getoond wordt.
+
+ Bootstrap library wordt nu niet meer gelaaden
+ * De benodigde CSS voor het formulier (uit Bootstrap) staat nu in het style.css bestand.
+
+ Nederlandse teksten
+ * Alle teksten zijn gewijzigd naar de informele form (je ipv. u).
 
 Overige technische aanpassingen
  * De opties voor het SELECT menu met de banken worden nu in een aparte functie aangemaakt. Dit is nodig om de plugin te laten samenwerken met de WordPress plugin HTML Forms van ibericode.

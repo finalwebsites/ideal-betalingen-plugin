@@ -112,7 +112,7 @@ function fws_bedankt_redirect() {
   		  if ($bedankpagina = get_post_meta($order_id, 'bedankpagina', true)) {
   		    $bedankt_url = $bedankpagina;
   		  }
-  		} 
+  		}
 			// nog steeds geen URL? dan maar de Homepage
   		if ($bedankt_url == '') {
   		  $bedankt_url = home_url('/');
@@ -173,7 +173,7 @@ function process_fws_betaalform() {
 					$msg = __('Momenteel kan er geen iDEAL betaling worden aangemaakt, probeer het (later) opnieuw', 'fws-ideal-betaalpaginas');
 				}
 			} else {
-				$msg = __('Uw betaling kan niet worden opgeslagen, probeer het opnieuw', 'fws-ideal-betaalpaginas');
+				$msg = __('Je betaling kan niet worden opgeslagen, probeer het opnieuw', 'fws-ideal-betaalpaginas');
 			}
 		}
 	}
@@ -210,7 +210,7 @@ function create_order_record($velden) {
 		if (!empty($Adres)) add_post_meta($order_id, 'Adres', $velden['Adres'], true);
 		if (!empty($PC_Plaats)) add_post_meta($order_id, 'PC_Plaats', $velden['PC_Plaats'], true);
 		if (!empty($Telefoon)) add_post_meta($order_id, 'Telefoon', $velden['Telefoon'], true);
-		
+
 		return $order_id;
 	} else {
 		return false;
@@ -244,7 +244,7 @@ function get_mollie_payment($bedrag, $descr, $order_id, $issuer) {
 		$msg = __('Fout:', 'fws-ideal-betaalpaginas') . $e->getMessage();
 		return false;
 	}
-	
+
 }
 
 function create_options_banken_select($current = '') {
