@@ -1,6 +1,6 @@
 # iDEAL betalingen plugin
 
-Met deze WordPress iDEAL plugin is het mogelijk om via je website een iDEAL betaling aan te bieden. Door het plaatsen van een shortcode kan je makkelijk een betaalpagina aanmaken, incl. order samenvatting, betaalformulier en een betaalbutton die de betaler gelijk naar de iDEAL pagina stuurt. De plugin is uitermate geschikt voor websites zonder webshop met een (klein) aantal producten en/of diensten. Deze iDEAL plugin is ontwikkeld voor een connectie met de betalingsprovider Mollie. [Klik hier](https://www.finalwebsites.nl/out/mollie/)vor het aanmaken van je gratis account.
+Met deze WordPress iDEAL plugin is het mogelijk om via je website een iDEAL betaling aan te bieden. Door het plaatsen van een shortcode kan je makkelijk een betaalpagina aanmaken, incl. order samenvatting, betaalformulier en een betaalbutton die de betaler gelijk naar de iDEAL pagina stuurt. De plugin is uitermate geschikt voor websites zonder webshop met een (klein) aantal producten en/of diensten. Deze iDEAL plugin is ontwikkeld voor een connectie met de betalingsprovider Mollie. [Klik hier](https://www.finalwebsites.nl/out/mollie/) voor het registreren van je gratis account.
 
 ## Functies
 De iDEAL betalingen plugin beschikt over de volgende functies:
