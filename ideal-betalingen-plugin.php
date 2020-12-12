@@ -2,7 +2,7 @@
 /*
 Plugin Name: iDEAL betalingen plugin
 Plugin URI: https://www.finalwebsites.nl/handleiding-ideal-betalingen-plugin/
-Description: Plugin voor het aanmaken van eenvoudige formulieren voor de betaling van enkele diensten of producten.
+Description: Plugin voor het aanmaken van eenvoudige formulieren voor de betaling van  diensten of producten.
 Author: Olaf Lederer
 Version: 1.0.1
 Author URI: https://www.finalwebsites.nl/
@@ -11,7 +11,7 @@ Domain Path: /languages/
 License: GPL v3
 
 iDEAL betalingen plugin
-Copyright (C) 2017, Olaf Lederer - https://www.finalwebsites.nl/contact/
+Copyright (C) 2020, Olaf Lederer - https://www.finalwebsites.nl/contact/
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ the Free Software Foundation, either version 3 of the License, or
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License

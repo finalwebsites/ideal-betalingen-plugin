@@ -1,28 +1,28 @@
-#iDEAL betalingen plugin
+# iDEAL betalingen plugin
 
 Met deze WordPress iDEAL plugin is het mogelijk om via je website een iDEAL betaling aan te bieden. Door het plaatsen van een shortcode kan je makkelijk een betaalpagina aanmaken, incl. order samenvatting, betaalformulier en een betaalbutton die de betaler gelijk naar de iDEAL pagina stuurt. De plugin is uitermate geschikt voor websites zonder webshop met een (klein) aantal producten en/of diensten.
 
-##Functies
+## Functies
 De iDEAL betalingen plugin beschikt over de volgende functies:
-*Eenvoudig op elke pagina te plaatsen met behulp van een shortcode
-*Voor elke betaalformulier kan een eigen e-mailbericht worden verstuurd. Hierdoor is de plugin geschikt voor de betaling van e-books, cursussen en (online) diensten.
-*HTML en CSS is gebaseerd op het Bootstrap CSS framework. Dit framework is erg populair en werkt prima met premium WordPress templates die Visual composer ondersteunen.
-*Voor het Divi WordPress thema is een extra CSS style optie beschikbaar.
-*Mogelijkheid om extra adres- en bedrijfsgegevens via het betaalformulier te tonen.
-*De betaler wordt gelijk doorgestuurd naar de iDEAL website van de gekozen bank en niet eerst naar de Mollie betaalpagina.
-*Alle verstuurde formulieren worden opgeslagen binnen een custom post type (iDEAL betalingen). Hier kan je alle gegevens bekijken, inclusieve betaalstatus.
-*Maak unieke bedankpagina’s aan voor verschillende formulieren.
+* Eenvoudig op elke pagina te plaatsen met behulp van een shortcode
+* Voor elke betaalformulier kan een eigen e-mailbericht worden verstuurd. Hierdoor is de plugin geschikt voor de betaling van e-books, cursussen en (online) diensten.
+* HTML en CSS is gebaseerd op het Bootstrap CSS framework. Dit framework is erg populair en werkt prima met premium WordPress templates die Visual composer ondersteunen.
+* Voor het Divi WordPress thema is een extra CSS style optie beschikbaar.
+* Mogelijkheid om extra adres- en bedrijfsgegevens via het betaalformulier te tonen.
+* De betaler wordt gelijk doorgestuurd naar de iDEAL website van de gekozen bank en niet eerst naar de Mollie betaalpagina.
+* Alle verstuurde formulieren worden opgeslagen binnen een custom post type (iDEAL betalingen). Hier kan je alle gegevens bekijken, inclusieve betaalstatus.
+* Maak unieke bedankpagina’s aan voor verschillende formulieren.
 
-##Installatie en configuratie
-1.Upload het .zip bestand via de plugin sectie van het WordPress dashboard of met behulp van je sFTP programma.
-1.Activeer de plugin en voer als eerste je Mollie API key (life of test) in.
-1.Maak de bedankpagina aan en voor de post ID (deze vind je in de adresbalk wanneer je de pagina bewerkt) in op de instellingen pagina.
-1.Wijzig de standaard teksten voor het formulier of de e-mail eenvoudig met de WordPress plugin “Loco Translate”.
-1.Plaats de shortcode voor het betaalformulier in je pagina of post.
+## Installatie en configuratie
+1. Upload het .zip bestand via de plugin sectie van het WordPress dashboard of met behulp van je sFTP programma.
+1. Activeer de plugin en voer als eerste je Mollie API key (life of test) in.
+1. Maak de bedankpagina aan en voor de post ID (deze vind je in de adresbalk wanneer je de pagina bewerkt) in op de instellingen pagina.
+1. Wijzig de standaard teksten voor het formulier of de e-mail eenvoudig met de WordPress plugin “Loco Translate”.
+1. Plaats de shortcode voor het betaalformulier in je pagina of post.
 
-Bekijk ook de uitgebreide [handleiding voor het iDEAL formulier](https://www.finalwebsites.nl/handleiding-ideal-betalingen-plugin/).
+> Bekijk ook de uitgebreide [handleiding voor het iDEAL formulier](https://www.finalwebsites.nl/handleiding-ideal-betalingen-plugin/).
 
-##Updates
+## Updates
 
 Versie 1.0.1 - 14 maart 2020
 De volgende aanpassingen en updates hebben geen gevolgen voor de werking van de oude versie.
